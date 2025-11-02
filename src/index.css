@@ -1,0 +1,38 @@
+/*
+ * === src/index.css ===
+ * This is the final version of your main CSS file.
+ * It just needs the core Tailwind directives.
+ */
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
+ 
+ /* Optional: Add a subtle scrollbar for a more polished look */
+ ::-webkit-scrollbar {
+   width: 8px;
+   height: 8px;
+ }
+ ::-webkit-scrollbar-track {
+   background: #f1f1f1;
+   border-radius: 10px;
+ }
+ ::-webkit-scrollbar-thumb {
+   background: #c0c0c0;
+   border-radius: 10px;
+ }
+ ::-webkit-scrollbar-thumb:hover {
+   background: #a8a8a8;
+ }
+ 
+ /* Dark mode scrollbar */
+ .dark ::-webkit-scrollbar-track {
+   background: #2d3748; /* dark:bg-gray-700 */
+ }
+ .dark ::-webkit-scrollbar-thumb {
+   background: #4a5568; /* dark:bg-gray-600 */
+ }
+ .dark ::-webkit-scrollbar-thumb:hover {
+   background: #718096; /* dark:bg-gray-500 */
+ }
+ 
+ 
