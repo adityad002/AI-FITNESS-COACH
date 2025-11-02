@@ -2,7 +2,7 @@ AI Fitness Coach 💪
 
 A personalized, AI-powered fitness and nutrition assistant built with React, Vite, and the Gemini API. This app generates custom workout and diet plans, provides audio readouts, and generates images for exercises and meals.
 
-Live Demo Link <-- Insert your Vercel/Netlify link here
+Live Demo Link : https://ai-fitness-coach-nu.vercel.app/
 
 🚀 Core Features
 
